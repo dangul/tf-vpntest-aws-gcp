@@ -1,0 +1,13 @@
+# Exempel på terraform.tfvars – kopiera till terraform.tfvars och fyll i dina värden.
+# OBS: terraform.tfvars är gitignorerad; lägg aldrig in hemligheter i git.
+
+gcp_project = "DITT-GCP-PROJEKT"
+
+# Valfritt, ändra vid behov:
+# aws_region         = "eu-north-1"
+# aws_vpc_cidr       = "10.10.0.0/24"
+# aws_bgp_asn        = 65010
+# gcp_region         = "europe-north1"
+# gcp_subnet_cidr    = "10.20.0.0/24"
+# gcp_bgp_asn        = 65020
+# tunnel_inside_cidr = "169.254.10.0/30"

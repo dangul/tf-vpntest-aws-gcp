@@ -1,0 +1,22 @@
+# ===== Terraform state och känsliga filer (ladda ALDRIG upp!) =====
+*.tfstate
+*.tfstate.*
+.tfstate.lock.info
+
+# Credentials / variabler med hemligheter
+*.tfvars
+*.tfvars.json
+
+# Terraform lokala filer
+.terraform/
+crash.log
+crash.*.log
+
+# Override-filer (kan innehålla hemligheter)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Övrigt
+.DS_Store
